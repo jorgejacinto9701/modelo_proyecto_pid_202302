@@ -11,105 +11,30 @@ public class EnlaceController {
 	@RequestMapping("/")
 	public String verLogin() {	return "intranetLogin";  }
 	
-	@RequestMapping("/verIntranetHome")
-	public String verIntranetHome() {	return "intranetHome";  }
+	@RequestMapping("/verAgregarCuenta")
+	public String verAgregarCuenta() {	return "intranetAgregarCuenta";  }
 
-	@RequestMapping("/verRegistroCliente")
-	public String verRegistraCliente() {	return "intranetRegistroCliente";	}
+	@RequestMapping("/verAgregarDepositos")
+	public String verAgregarDepositos() {	return "intranetAgregarDepositos";  }
 	
-	@RequestMapping("/verRegistroMarca")
-	public String verRegistraMarca() {	return "intranetRegistroMarca";	}
+	@RequestMapping("/verDashboard")
+	public String verDashboard() {	return "intranetDashboard";  }
 	
-	@RequestMapping("/verRegistroProveedor")
-	public String verRegistraProveedor() {	return "intranetRegistroProveedor";	}
+	@RequestMapping("/verOportunidades")
+	public String verOportunidades() {	return "intranetOportunidades";  }
 	
-	@RequestMapping("/verRegistroProducto")
-	public String verRegistraProducto() {	return "intranetRegistroProducto";	}
-
-	@RequestMapping("/verRegistroReclamo")
-	public String verRegistraReclamo() {	return "intranetRegistroReclamo";	}
+	@RequestMapping("/verCapitalista")
+	public String verCapitalista() {	return "intranetCapitalista";  }
 	
-	@RequestMapping("/verRegistroSede")
-	public String verRegistroSede() {	return "intranetRegistroSede";	}
+	@RequestMapping("/verCuentas")
+	public String verCuentas() {	return "intranetCuentas";  }
 	
-	@RequestMapping("/verRegistroUsuario")
-	public String verRegistroUsuario() {	return "intranetRegistroUsuario";	}
+	@RequestMapping("/verDepositosRetiros")
+	public String verDepositosRetiros() {	return "intranetDepositosRetiros";  }
 	
-	@RequestMapping("/verRegistroTipoReclamo")
-	public String verRegistroTipoReclamo() {	return "intranetRegistroTipoReclamo";	}
+	@RequestMapping("/verEmpresas")
+	public String verEmpresas() {	return "intranetEmpresas";  }
 	
-	@RequestMapping("/verRegistroPais")
-	public String verRegistroPais() {	return "intranetRegistroPais";	}
-	
-	
-	//cruds
-	@RequestMapping("/verCrudCliente")
-	public String verCrudCliente() {	return "intranetCrudCliente";	}
-	
-	@RequestMapping("/verCrudMarca")
-	public String verCrudMarca() {	return "intranetCrudMarca";	}
-	
-	@RequestMapping("/verCrudProveedor")
-	public String verCrudProveedor() {	return "intranetCrudProveedor";	}
-	
-	@RequestMapping("/verCrudProducto")
-	public String verCrudProducto() {	return "intranetCrudProducto";	}
-
-	@RequestMapping("/verCrudReclamo")
-	public String verCrudReclamo() {	return "intranetCrudReclamo";	}
-	
-	@RequestMapping("/verCrudSede")
-	public String verCrudSede() {	return "intranetCrudSede";	}
-	
-	@RequestMapping("/verCrudUsuario")
-	public String verCrudUsuario() {	return "intranetCrudUsuario";	}
-	
-	@RequestMapping("/verCrudTipoReclamo")
-	public String verCrudTipoReclamo() {	return "intranetCrudTipoReclamo";	}
-	
-	@RequestMapping("/verCrudPais")
-	public String verCrudPais() {	return "intranetCrudPais";	}
-	
-	
-	
-	//conuslta
-	@RequestMapping("/verConsultaCliente")
-	public String verConsultaCliente() {	return "intranetConsultaCliente";	}
-	
-	@RequestMapping("/verConsultaMarca")
-	public String verConsultaMarca() {	return "intranetConsultaMarca";	}
-	
-	@RequestMapping("/verConsultaProveedor")
-	public String verConsultaProveedor() {	return "intranetConsultaProveedor";	}
-	
-	@RequestMapping("/verConsultaProducto")
-	public String verConsultaProducto() {	return "intranetConsultaProducto";	}
-
-	@RequestMapping("/verConsultaReclamo")
-	public String verConsultaReclamo() {	return "intranetConsultaReclamo";	}
-	
-	@RequestMapping("/verConsultaSede")
-	public String verConsultaSede() {	return "intranetConsultaSede";	}
-	
-	@RequestMapping("/verConsultaUsuario")
-	public String verConsultaUsuario() {	return "intranetConsultaUsuario";	}
-	
-	@RequestMapping("/verConsultaTipoReclamo")
-	public String verConsultaTipoReclamo() {	return "intranetConsultaTipoReclamo";	}
-	
-	@RequestMapping("/verConsultaPais")
-	public String verConsultaPais() {	return "intranetConsultaPais";	}
-
-	@RequestMapping("/verConsultaBoleta")
-	public String verConsultaBoleta() {	return "intranetConsultaBoleta";	}
-	
-	@RequestMapping("/verConsultaComprobante")
-	public String verConsultaComprobante() {	return "intranetConsultaComprobante";	}
-
-	@RequestMapping("/verRegistroBoleta")
-	public String verRegistroBoleta() {	return "intranetRegistroPedido";	}
-
-	@RequestMapping("/verRegistroComprobante")
-	public String verRegistroComprobante() {	return "intranetRegistroComprobante";	}
-
+	@RequestMapping("/verBancos")
+	public String verBancos() {	return "intranetBancos";  }
 }

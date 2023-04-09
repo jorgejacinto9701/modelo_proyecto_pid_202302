@@ -25,7 +25,7 @@
 </head>
 <body>
 <jsp:include page="intranetCabecera.jsp" />
-<div class="container" style="margin-top: 4%"><h4>Consulta Usuario</h4></div>
+<div class="container" style="margin-top: 4%"><h4>Depósitos</h4></div>
 
 <div class="container" style="margin-top: 1%">
 <!-- Agregar aquí -->

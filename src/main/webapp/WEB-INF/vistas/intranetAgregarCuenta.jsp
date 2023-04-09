@@ -25,7 +25,7 @@
 </head>
 <body>
 <jsp:include page="intranetCabecera.jsp" />
-<div class="container" style="margin-top: 4%"><h4>Crud Cliente</h4></div>
+<div class="container" style="margin-top: 4%"><h4>Agregar Cuenta</h4></div>
 
 <div class="container" style="margin-top: 1%">
 <!-- Agregar aquí -->
