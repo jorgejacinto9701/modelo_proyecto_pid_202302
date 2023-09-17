@@ -18,10 +18,10 @@
     <ul class="nav navbar-nav">
     	
     		
-    		<c:if test="${sessionScope.objRoles[0].idRol == 2}">
+    	
     		    	<li class="dropdown">	
 				        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-				          Cuentas<b class="caret"></b>
+				          Mantenimiento<b class="caret"></b>
 				        </a>
 				        <ul class="dropdown-menu">
 				        	<c:forEach var="x" items="${sessionScope.objMenus}">
@@ -35,12 +35,10 @@
 				        	</c:forEach>
 				        </ul>
 			     	</li>
-    		</c:if>	
-    		
-    		<c:if test="${sessionScope.objRoles[0].idRol == 2}">
+
     		    	<li class="dropdown">	
 				        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-				          Inversión<b class="caret"></b>
+				          Negocio<b class="caret"></b>
 				        </a>
 				        <ul class="dropdown-menu">
 				        	<c:forEach var="x" items="${sessionScope.objMenus}">
@@ -54,45 +52,8 @@
 				        	</c:forEach>
 				        </ul>
 			     	</li>
-    		</c:if>	
+    	
      	
-     	    <c:if test="${sessionScope.objRoles[0].idRol == 1}">
-    		    	<li class="dropdown">	
-				        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-				          Empresas<b class="caret"></b>
-				        </a>
-				        <ul class="dropdown-menu">
-				        	<c:forEach var="x" items="${sessionScope.objMenus}">
-					        	<c:if test="${x.tipo ==3}">
-								<li>
-					        			<a href="${x.ruta}">
-					        				${x.nombre}
-					        			</a>
-					        		</li>
-				        		</c:if>
-				        	</c:forEach>
-				        </ul>
-			     	</li>
-    		</c:if>	
-       	
-     	     	    <c:if test="${sessionScope.objRoles[0].idRol == 1}">
-    		    	<li class="dropdown">	
-				        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-				          Capitalista<b class="caret"></b>
-				        </a>
-				        <ul class="dropdown-menu">
-				        	<c:forEach var="x" items="${sessionScope.objMenus}">
-					        	<c:if test="${x.tipo ==4}">
-								<li>
-					        			<a href="${x.ruta}">
-					        				${x.nombre}
-					        			</a>
-					        		</li>
-				        		</c:if>
-				        	</c:forEach>
-				        </ul>
-			     	</li>
-    		</c:if>	
      
      	
      </ul>
